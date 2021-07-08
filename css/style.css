@@ -21,7 +21,11 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 /*BODY*/
 body{
-
+	font-family: 'Helvetica', Arial, sans-serif;
+	color: #262626;
+	font-size: 14px;
+	margin:20px;
+	background-color: #FAFAFA;
 }
 
 /*TOPO*/
@@ -37,8 +41,195 @@ footer{
 /*PÁGINA INICIAL*/
 main{
 	
+
+	
 }
+
+
+img {
+	width: 50px;
+}
+
+.grancontainer {
+	width: 935px;
+	height: 1150px;
+}
+
+.grancontainer a{
+	color: #262626 ;	
+}
+.grancontainer a:hover{
+	color: royalblue ;	
+}
+
+.grancontainer a:link {
+	text-decoration: none;	
+}
+
+.grancontainer a:visited {
+	text-decoration: none;	
+}
+
+
+#kenzigram-logo {
+	width: 200px;
+	
+}
+
+#profile-photo {
+	border-radius: 100%;
+	border: 5px inset;
+	margin-left: 30px;
+	width: 150px;
+	margin-right: 100px;
+	
+}
+
+.profile-content {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	height: 250px;
+	
+}
+
+.profile-info {
+	width: 450px;
+	height: 180px;
+}
+
+.profile-info h1 {
+	font-size: larger;
+	margin-bottom: 20px;
+}
+
+.profile-info h2 {
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+
+.profile-info a {
+	color: royalblue;
+}
+
+.profile-info a:link {
+	text-decoration: none;
+}
+
+.profile-info a:visited {
+	text-decoration: none;
+}
+
+
+
+.profile-data {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 20px;
+}
+
+.highlighted-stories ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 200px;
+	height: 100px;
+	margin-left: 100px;
+}
+
+#highlight1 {
+	width: 60px;
+	border: 5px inset;
+	border-radius: 100%;
+}
+
+figcaption {
+	text-align: center;
+	font-weight: bold;
+}
+
+.profile-posts {
+	margin: 30px 20px  20px 20px;
+
+	
+}
+
+.profile-posts nav {
+	border-top: 2px solid #cdcdcd;
+	text-align: center;
+	
+}
+
+.profile-posts nav a{
+	color: #818181;
+}
+.profile-posts nav a:link{
+	text-decoration: none;
+}
+
+.profile-posts nav a:visited{
+	text-decoration: none;
+}
+
+.profile-posts nav a:nth-child(2){
+	margin-right: 20px;
+	
+}
+
+.profile-posts nav a:nth-child(2):hover{
+	font-size: larger;
+	border-top: 3px solid;
+}
+
+#stick {
+	width: 10px;
+}
+
+.profile-posts nav a:nth-child(4){
+	margin-right: 20px;
+}
+
+.profile-posts nav a:nth-child(4):hover{
+	font-size: larger;
+	border-top: 3px solid;
+}
+
+.profile-posts nav a:nth-child(6){
+	margin-right: 20px;
+}
+
+.profile-posts nav a:nth-child(6):hover{
+	font-size: larger;
+	border-top: 3px solid;
+}
+
+.photosinsta{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+#imgpost {
+	width: 260px;
+	margin-bottom: 20px;
+}
+
+footer{
+	margin-top: 70px;
+	margin-left: 5px;
+}
+
+footer nav a:nth-child(n)::after {
+	content: "|";
+}
+
+
+
+
+
 	main .profile-content{
+		
 
 	}
 
